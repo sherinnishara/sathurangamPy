@@ -16,10 +16,8 @@
     <a href="#">View Demo</a>
 </div>
 
-
-
 <!-- ABOUT THE PROJECT -->
-# About the Library
+## About the Library
 
 **"SathurangamPy"** is a Python library exclusive for OpenCV, designed to simplify various image processing tasks. It offers single-function calls for operations such as image filtering, transformation, feature detection, edge detection, and object recognition making it an all-in-one solution for both beginners and advanced users in computer vision.
 
