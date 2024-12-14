@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/user-attachments/assets/0db53696-7212-47be-befd-abd803126286" width="80" height="80">
   </a>
 
   <h3 align="center">sathurangamPy</h3>
@@ -21,7 +21,7 @@
 <!-- ABOUT THE PROJECT -->
 # About the Library
 
-**"SathurangamPy"** is a Python library built exclusive for OpenCV, designed to simplify various image processing tasks. It offers single-function calls for operations such as image filtering, transformation, feature detection, edge detection, and object recognition making it an all-in-one solution for both beginners and advanced users in computer vision.
+**"SathurangamPy"** is a Python library exclusive for OpenCV, designed to simplify various image processing tasks. It offers single-function calls for operations such as image filtering, transformation, feature detection, edge detection, and object recognition making it an all-in-one solution for both beginners and advanced users in computer vision.
 
 <!-- Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
