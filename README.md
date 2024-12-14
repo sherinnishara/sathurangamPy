@@ -19,7 +19,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About the Library
+# About the Library
 
 **"SathurangamPy"** is a Python library built exclusive for OpenCV, designed to simplify various image processing tasks. It offers single-function calls for operations such as image filtering, transformation, feature detection, edge detection, and object recognition making it an all-in-one solution for both beginners and advanced users in computer vision.
 
@@ -31,10 +31,10 @@
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template! 
 -->
 
-<!--Use the `BLANK_README.md` to get started.-->
+<!--Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+-->
 
 
 
@@ -105,7 +105,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
-<!-- ROADMAP -->
+<!-- ROADMAP 
 ## Roadmap
 
 - [x] Add Changelog
@@ -122,7 +122,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 
 
-<!-- CONTRIBUTING -->
+<!-- CONTRIBUTING 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -147,15 +147,15 @@ Don't forget to give the project a star! Thanks again!
 
 
 <!-- LICENSE -->
-## License
+### License
 
-Distributed under the Unlicense License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. `LICENSE.txt`
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
-<!-- CONTACT -->
+<!-- CONTACT 
 ## Contact
 
 Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
@@ -166,7 +166,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 
 
-<!-- ACKNOWLEDGMENTS -->
+<!-- ACKNOWLEDGMENTS
 ## Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
