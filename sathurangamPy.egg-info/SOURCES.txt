@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+sathurangamPy/__init__.py
+sathurangamPy/sathurangamPy.py
+sathurangamPy/test.py
+sathurangamPy.egg-info/PKG-INFO
+sathurangamPy.egg-info/SOURCES.txt
+sathurangamPy.egg-info/dependency_links.txt
+sathurangamPy.egg-info/requires.txt
+sathurangamPy.egg-info/top_level.txt
