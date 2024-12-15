@@ -1,10 +1,7 @@
 | <img width="200" alt="kabaddi_api_logo" src="https://github.com/user-attachments/assets/0db53696-7212-47be-befd-abd803126286"> | <h2 align="center">SathurangamPy - A Comprehensive Python Library Exclusive for OpenCv</h2><p align="center"><a href="#Demo">View Demo</a></p> |
 |:---:|:---|
 
-<!--[![License](https://img.shields.io/pypi/l/sathuran.svg)](https://github.com/kabaddiPy/kabaddiPy/blob/main/LICENSE)
-[![PyPI version](https://badge.fury.io/py/kabaddiPy.svg)](https://badge.fury.io/py/kabaddiPy)
-[![Python Versions](https://img.shields.io/pypi/pyversions/kabaddiPy.svg)](https://pypi.org/project/kabaddiPy/) -->
-
+![python](https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue?labelColor=green&style=for-the-badge)
 ---
 
 `Sathurangam is a Python library for OpenCV, simplifying tasks like edge detection, grayscale conversion, cropping, and rotation with a single line of code for all level of users`
@@ -52,32 +49,32 @@ SathurangamPy provides a wide range of tools for handling OpenCV image processin
 ### Image Cropping:
 
 ```python
-crop = sp.image_crop(path,50, 50, 200, 200)
+crop = sp.crop_image(path,50, 50, 200, 200)
 ```
 
 ### Image Rotation:
 
 ```python
-rotate_img = sp.image_rotate(path,-45)
+rotate = sp.rotate_image(path,-45)
 ```
 
 ### Image Blurring :
 
 ```python
-blur_img = sp.image_blur(path, 7)
+blur = sp.blur_image(path, 7)
 # Error handling when an invalid kernel size occurs(even number)
 ```
 
-### Binary Thresholding:
+### Image Thresholding:
 
 ```python
-binary_threshold = sp.bin_threshold(path,127)
+threshold = sp.threshold_image(path, 20)
 ```
 
-
 The library offers simple methods for image manipulations, making it a versatile tool for developers. 
-allowing complex operations with minimal code, and handles image display without needing `waitKey()` or `destroyAllWindows()`
+allowing complex operations with minimal code, 
 
+>"Lead future with low-code"
 
 ## Requirement:
 
