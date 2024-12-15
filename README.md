@@ -1,5 +1,6 @@
-| <img width="200" alt="kabaddi_api_logo" src="https://github.com/user-attachments/assets/0db53696-7212-47be-befd-abd803126286"> | <h2 align="center">SathurangamPy - A Comprehensive Python Library Exclusive for OpenCv</h2> |
+| <img width="200" alt="kabaddi_api_logo" src="https://github.com/user-attachments/assets/0db53696-7212-47be-befd-abd803126286"> | <h2 align="center">SathurangamPy - A Comprehensive Python Library Exclusive for OpenCv</h2><p align="center"><a href="https://pypi.org/project/sathurangam/">Installation</a> • <a href="https://docsify-this.net/?basePath=https://raw.githubusercontent.com/sherinnishara/sathurangamPy/main&homepage=user_guide.md#/">User guide</a></p> |
 |:---:|:---|
+
 
 ![Python](https://img.shields.io/badge/Python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue?labelColor=green&style=flat)
 ---
