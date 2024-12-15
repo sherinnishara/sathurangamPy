@@ -5,9 +5,13 @@ Sathurangam is a python package designed to streamline OpenCV tasks by reducing 
 
 This documentation explains how to use each function in the module step by step, including its required inputs and outputs with examples.
 
+
+
 ## **Disclaimer**
 
-Below functions are require `cv2.imshow()` and others 
+Below functions are require
+
+ `cv2.imshow()` and others 
 
 
 ---
@@ -423,4 +427,4 @@ print(data)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white&circle=true)](sherinnishara) 
 
 
->        "made by ❤️ sherin"
+>"made by ❤️ sherin"
