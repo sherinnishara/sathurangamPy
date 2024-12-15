@@ -33,17 +33,16 @@ Here's a quick example to getting started with `sathurangamPy` package:
 
 ```python
 import sathurangamPy as sp
+import cv2
 
 path = "image.png/jpg"
 
 #Convert image to grayscale
 gray = sp.grayscale_converter(path)
-print(gray)
 
-#Resize the image(heigth, width)
-resize = sp.image_resize(path,100,200)
-print(resize)
-
+cv2.imshow('gray',gray)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 ```
 
 ## Features
