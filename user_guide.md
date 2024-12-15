@@ -1,5 +1,6 @@
 # ***SathurangamPy User Guidance***
 
+
 Sathurangam is a python package designed to streamline OpenCV tasks by reducing complex operations to single-line solutions, enhancing code readability and efficiency.
 
 This documentation explains how to use each function in the module step by step, including its required inputs and outputs with examples.
@@ -7,6 +8,8 @@ This documentation explains how to use each function in the module step by step,
 ## **Disclaimer**
 
 Below functions are require `cv2.imshow()` and others 
+
+
 ---
 
 ## 1. Display Image
@@ -34,6 +37,7 @@ Below functions are require `cv2.imshow()` and others
 
 ---
 
+
 ## 2. Image to Grayscale
 - **Function:** `grayscale_converter(path)`
 - **Description:** Converts the input image to grayscale.
@@ -48,6 +52,8 @@ Below functions are require `cv2.imshow()` and others
 
 ---
 
+
+
 ## 3. Resize Image
 - **Function:** `resize_image(path, width, height)`
 - **Description:** Resizes the input image to the specified size.
@@ -58,7 +64,9 @@ Below functions are require `cv2.imshow()` and others
 - **Example:**
   ```python
   resized_image = resize_image(path, 400, 300)
+
 ---
+
 
 ## 4. Rotate Image
 - **Function:** `rotate_image(filename, angle)`
@@ -72,6 +80,7 @@ Below functions are require `cv2.imshow()` and others
 
 ---
 
+
 ## 5. Blur Image
 - **Function:** `blur_image(filename, kernel)`
 - **Description:** Applies a Gaussian blur to the image.
@@ -84,6 +93,7 @@ Below functions are require `cv2.imshow()` and others
   ```
 
 ---
+
 
 ## 6. Crop Image
 - **Function:** `crop_image(filename, x, y, width, height)`
@@ -101,6 +111,7 @@ Below functions are require `cv2.imshow()` and others
 
 ---
 
+
 ## 7. Canny Edge Detection
 - **Function:** `canny_edge(filename, kernel, low_threshold, high_threshold)`
 - **Description:** Detects edges in the image using the Canny edge detection algorithm.
@@ -113,7 +124,9 @@ Below functions are require `cv2.imshow()` and others
   ```python
   edges = canny_edge(path, 3, 50, 150)
   ```
+
 ---
+
 
 ## 8. Dilate Image
 - **Function:** `dilate_image(filename, kernel, low_threshold, high_threshold, iterations)`
@@ -131,6 +144,7 @@ Below functions are require `cv2.imshow()` and others
 
 ---
 
+
 ## 9. Erode Image
 - **Function:** `erode_image(filename, kernel, low_threshold, high_threshold, dilate_iterations, erode_iterations)`
 - **Description:** Applies erosion to a dilated image after detecting edges using the Canny edge detector.
@@ -145,7 +159,9 @@ Below functions are require `cv2.imshow()` and others
   ```python
   eroded_image = erode_image(path, 
   5, 100, 200, 2, 2)
+
 ---
+
 
 ## 10. Threshold Image
 - **Function:** `threshold_image(filename, threshold)`
@@ -157,7 +173,9 @@ Below functions are require `cv2.imshow()` and others
   ```python
   thresholded_image = 
   threshold_image(path, 128)
+
 ---
+
 
 ## 11. Count Contours
 - **Function:** `contour_count(filename, kernel, low_threshold, high_threshold)`
@@ -170,7 +188,9 @@ Below functions are require `cv2.imshow()` and others
 - **Usage Example:**
   ```python
     contour_count(path, 5, 100, 200)
+
 ---
+
 
 ## 12. Draw Contours
 - **Function:** `draw_contour(filename, kernel, low_threshold, high_threshold, thickness, color=()*3)`
@@ -187,7 +207,9 @@ Below functions are require `cv2.imshow()` and others
   contour_image = 
   draw_contour(path, 5, 100, 200, 2, 
   (0, 255, 0))
+
 ---
+
 
 ## 13. Draw Specific Contour
 - **Function:** `draw_specific_contour(filename, kernel, low_threshold, high_threshold, contourIdx, thickness, color=()*3)`
@@ -205,7 +227,9 @@ Below functions are require `cv2.imshow()` and others
   specific_contour_image = 
   draw_specific_contour(path, 5, 100, 
   200, 0, 2, (255, 0, 0))
+
 ---
+
 
 ## 14. Draw Blank Image
 - **Function:** `draw_blank_image(height, width)`
@@ -218,7 +242,9 @@ Below functions are require `cv2.imshow()` and others
   ```python
   blank_image = 
   draw_blank_image(500, 500)
+
 ---
+
 
 ## 15. Draw Color Image
 - **Function:** `draw_color_image(height, width, color=()*3)`
@@ -231,7 +257,9 @@ Below functions are require `cv2.imshow()` and others
 - **Usage Example:**
   ```python
   color_image = draw_color_image(500, 500, (255, 0, 0))
+
 ---
+
 
 ## 16. Draw Rectangle 
 - **Function:**
@@ -248,7 +276,9 @@ Below functions are require `cv2.imshow()` and others
 - **Usage Example:**
   ```python
   draw_rectangle(path, 50, 50, 100, 50, (0, 255, 0), 2)
+
 ---
+
 
 ## 17. Draw Circle
 - **Function:** `draw_circle(filename, thickness, radius, center_point=()*2, color=()*3)`
@@ -265,7 +295,9 @@ Below functions are require `cv2.imshow()` and others
   image_with_circle = 
   draw_circle(path, 2, 50, (100, 100), 
   (255, 0, 0)) 
+
 ---
+
 
 ## 18. Draw Line on image
 - **Function:** `draw_line(filename, thickness, start_point=()*2, end_point=()*2, color=()*3)`
@@ -280,7 +312,9 @@ Below functions are require `cv2.imshow()` and others
 - **Usage Example:**
   ```python
   image_with_line = draw_line(path, 2, (50, 50), (150, 150), (0, 255, 0)) 
+
 ---
+
 
 ## 19. Put Text on image
 - **Function:** `draw_text(filename, text, fontScale, position=()*2, color=()*3)`
@@ -298,6 +332,7 @@ Below functions are require `cv2.imshow()` and others
 
 ---
 
+
 ## 20. Draw Custom Text
 - **Function:** `draw_custom_text(filename, text, fontstyle, fontScale, position=()*2, color=()*3)`
 - **Description:** Adds text to an image at a specified position with a custom font style, font size, and color.
@@ -311,7 +346,9 @@ Below functions are require `cv2.imshow()` and others
 - **Usage Example:**
   ```python
   image_with_custom_text = draw_custom_text(path, "Custom Text", cv2.FONT_HERSHEY_SIMPLEX, 1, (100, 100), (255, 0, 0))  
+
 ---
+
 
 ## 21. Display Video(including live)
 - **Function:** `read_video(filename)`
@@ -323,7 +360,9 @@ Below functions are require `cv2.imshow()` and others
   video = read_video("video.mp4")
   read_ video(0) #webcam open
   #if not works use print(video)
+
 ---
+
 
 ## 22.Human Face detection from image
 - **Function:** -`detect_face(filename, haarfile, scaleFactor, minNeighbors)`
@@ -341,7 +380,9 @@ Below functions are require `cv2.imshow()` and others
   3)
   print(face)
 ```
+
 ---
+
 
 ## 23.Save Images(Face detected) to a Dataset including live capture 
 - **Function:** - `save_face(videocap, datasets, sub_data, haar_file, total)`
@@ -363,18 +404,23 @@ haar_f ='haar cascade.xml'
 data = save_face(0, datasets, sub_data, haar_file, 50)
 print(data)
 ```
+
 ---
+
 
 ## Setup and Requirements:
 - **Libraries**: `cv2` (OpenCV), `numpy`.
 - **Dataset/Files**: Image/video paths, Haar cascade XML files for face detection.
 
+
 ---
+
 
 ## Connect with Us:
 
 [![GitHub](https://img.shields.io/badge/-GitHub-000000?style=flat&logo=github&logoColor=white&circle=true)](sherinnishara ) 
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white&circle=true)](sherinnishara) 
+
 
 >        "made by ❤️ sherin"
