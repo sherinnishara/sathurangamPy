@@ -1,4 +1,4 @@
-# SathurangamPy User Guidance 
+# ***SathurangamPy User Guidance***
 
 Sathurangam is a python package designed to streamline OpenCV tasks by reducing complex operations to single-line solutions, enhancing code readability and efficiency.
 
