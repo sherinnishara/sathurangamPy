@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '0.0.1'
+VERSION = '0.0.3'
 DESCRIPTION = 'OpennCV for everyone: A package for powerful and efficient image processing. Simplified version of OpenCV'
 
 setup(
