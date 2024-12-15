@@ -91,7 +91,7 @@ This project is licensed under the MIT License
 
 ## Contact
 
-Reach out me [Sherin Nishara S](mailto:sherinars2004@gmail.com)
+# Reach out me [Sherin Nishara S](mailto:sherinars2004@gmail.com)
 ---
 
 <p align="center">
