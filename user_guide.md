@@ -377,4 +377,4 @@ print(data)
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white&circle=true)](sherinnishara) 
 
->        "made by â¤ï¸ sherin"
+>        "made by ❤️ sherin"
