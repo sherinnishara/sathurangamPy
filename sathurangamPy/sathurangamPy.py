@@ -47,7 +47,6 @@ def blur_image(filename, kernel):
 def crop_image(filename, x, y, width, height):
     image = cv2.imread(filename)
     crop = image[y:y+height, x:x+width]
-    cv2.imshow('Croped', crop)
     return crop
 
 def canny_edge(filename, kernel, low_threshold, high_threshold):
