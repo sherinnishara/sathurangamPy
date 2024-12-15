@@ -427,4 +427,4 @@ print(data)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white&circle=true)](sherinnishara) 
 
 
->"made by ❤️ sherin"
+>"made by ❤️ @sherinars2004@gmal.com"
