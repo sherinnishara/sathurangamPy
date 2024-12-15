@@ -1,7 +1,5 @@
 # __init__.py
-
-# Import all functions from processing_functions
-from .processing_functions import (
+from .sathurangamPy import (
     display_image,
     grayscale_converter,
     resize_image,
