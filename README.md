@@ -14,11 +14,11 @@
 install the package `sathurangamPy` using pip:
 
 
-<!--```shell
+```shell
+pip install sathurangam
 ```
 
-Deployed here: https://pypi.org/project/kabaddiPy/
--->
+Deployed here: https://pypi.org/project/sathurangam/
 
 ## Flow Diagram
 
