@@ -422,9 +422,9 @@ print(data)
 
 ## Connect with Us:
 
-[![GitHub](https://img.shields.io/badge/-GitHub-000000?style=flat&logo=github&logoColor=white&circle=true)](sherinnishara ) 
+[![GitHub](https://img.shields.io/badge/-GitHub-000000?style=flat&logo=github&logoColor=white&circle=true)](https://github.com/sherinnishara) 
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white&circle=true)](sherinnishara) 
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white&circle=true)](https://www.linkedin.com/in/sherinnishara) 
 
 
 >"made by ❤️ @sherinars2004@gmal.com"
